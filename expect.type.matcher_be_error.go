@@ -5,7 +5,7 @@ import "fmt"
 type matcherBeError struct {
 }
 
-func (it matcherBeError) Init() matcherBeError {
+func (it matcherBeError) init() matcherBeError {
 	return it
 }
 
